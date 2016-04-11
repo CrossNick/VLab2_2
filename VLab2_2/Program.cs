@@ -19,12 +19,14 @@ namespace VLab2_2
             this.Num = s;
         }
 
-        public int this[int i]
+        public char this[int i]
         {
             get
             {
                 if (i >= 0 && i < num.Length)
-                    return Convert.ToInt32(num[i]);
+                {
+                    return num[i];
+                }
                 else
                     throw new OverflowException();
             }
@@ -112,13 +114,22 @@ namespace VLab2_2
     {
         static void Main(string[] args)
         {
-            Oct oct = new Oct();
+            Oct oct = new Oct(), oct2 = new Oct("1234");
             Console.WriteLine("Введите восьмеричное число:");
             oct.Num = Console.ReadLine();
             int dex = oct.toDex();
             Console.WriteLine("Число в десятично форме:");
             Console.WriteLine(dex);
-
+            if(oct > oct2)
+                Console.WriteLine("Введенное число больше 1234");
+            else if(oct < oct2)
+                Console.WriteLine("Введенное число меньше 1234");
+            else
+                Console.WriteLine("Введенное число равно 1234");
+            Console.WriteLine("Введите индекс который хотите узнать: ");
+            int ind;
+            ind = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(oct[ind]);
         }
     }
 }
