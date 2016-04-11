@@ -19,6 +19,49 @@ namespace VLab2_2
             this.Num = s;
         }
 
+        public static bool operator == (Oct o1, Oct o2)
+        {
+            if (Convert.ToInt32(o1.num) == Convert.ToInt32(o2.num))
+                return true;
+            else
+                return false;
+        }
+        public static bool operator !=(Oct o1, Oct o2)
+        {
+            if (Convert.ToInt32(o1.num) != Convert.ToInt32(o2.num))
+                return true;
+            else
+                return false;
+        }
+        public static bool operator >(Oct o1, Oct o2)
+        {
+            if (Convert.ToInt32(o1.num) > Convert.ToInt32(o2.num))
+                return true;
+            else
+                return false;
+        }
+        public static bool operator <(Oct o1, Oct o2)
+        {
+            if (Convert.ToInt32(o1.num) < Convert.ToInt32(o2.num))
+                return true;
+            else
+                return false;
+        }
+        public static bool operator >=(Oct o1, Oct o2)
+        {
+            if (Convert.ToInt32(o1.num) >= Convert.ToInt32(o2.num))
+                return true;
+            else
+                return false;
+        }
+        public static bool operator <=(Oct o1, Oct o2)
+        {
+            if (Convert.ToInt32(o1.num) <= Convert.ToInt32(o2.num))
+                return true;
+            else
+                return false;
+        }
+
         public int toDex()
         {
             int dex=0, octx=Convert.ToInt32(num);
