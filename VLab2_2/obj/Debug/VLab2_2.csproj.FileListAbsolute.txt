@@ -1,1 +1,7 @@
 D:\Универ\лабораторки_прога\VLab2_2\VLab2_2\bin\Debug\VLab2_2.exe.config
+D:\Универ\лабораторки_прога\Vlab2_git\VLab2_2\VLab2_2\bin\Debug\VLab2_2.exe.config
+D:\Универ\лабораторки_прога\Vlab2_git\VLab2_2\VLab2_2\bin\Debug\VLab2_2.exe
+D:\Универ\лабораторки_прога\Vlab2_git\VLab2_2\VLab2_2\bin\Debug\VLab2_2.pdb
+D:\Универ\лабораторки_прога\Vlab2_git\VLab2_2\VLab2_2\obj\Debug\VLab2_2.csprojResolveAssemblyReference.cache
+D:\Универ\лабораторки_прога\Vlab2_git\VLab2_2\VLab2_2\obj\Debug\VLab2_2.exe
+D:\Универ\лабораторки_прога\Vlab2_git\VLab2_2\VLab2_2\obj\Debug\VLab2_2.pdb
