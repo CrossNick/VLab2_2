@@ -19,6 +19,17 @@ namespace VLab2_2
             this.Num = s;
         }
 
+        public int this[int i]
+        {
+            get
+            {
+                if (i >= 0 && i < num.Length)
+                    return Convert.ToInt32(num[i]);
+                else
+                    throw new OverflowException();
+            }
+        }
+
         public static bool operator == (Oct o1, Oct o2)
         {
             if (Convert.ToInt32(o1.num) == Convert.ToInt32(o2.num))
