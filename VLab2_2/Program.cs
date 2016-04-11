@@ -10,6 +10,15 @@ namespace VLab2_2
     {
         private string num;
 
+        public Oct()
+        {
+            num = "0";
+        }
+        public Oct(string s)
+        {
+            this.Num = s;
+        }
+
         public int toDex()
         {
             int dex=0, octx=Convert.ToInt32(num);
